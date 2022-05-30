@@ -69,42 +69,58 @@ nav>a:hover{
 .headerh1:hover{
     color: red;
 }
-.primer__main{
+.chris{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+.alfonso{
+    display: flex;
+    justify-content: center;
+}
+.david{
+    display: flex;
+    justify-content: center;
+}
+.mike{
+    display: flex;
+    justify-content: center;
+}
+ /* .primer__main{
+      display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
 .section__Textoc{
     color: rgb(113, 158, 143);
 }
 .section__TextoJ{
     color: rgb(113, 158, 143);
-    display: inline;
- justify-self: flex-end;
+     display: inline;
+ justify-self: flex-end; 
 
 }
 
 .section__Titlepro{
-    color: rgb(113, 158, 143);
+     color: rgb(113, 158, 143);
     margin-bottom: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
+     margin-left: 2%;
+    margin-right: 2%;  
 }
 
 .protitle{
     text-decoration: underline;
     color: rgb(126, 36, 36);
-    padding-bottom: 1%;
-}
+     padding-bottom: 1%; 
+} */
 
-.productor__area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* .productor__area{
+     display: flex;
+     justify-content: center;
+     align-items: center;  
 }
 .section__ProductorC{
     color: rgb(113, 158, 143);
-    margin: 0 3% 1% 3%;
+      margin: 0 3% 1% 3%;  
 }
 .chris{
 
@@ -118,7 +134,7 @@ nav>a:hover{
 }
 .section__ProductorA{
     color: rgb(113, 158, 143);
-    margin: 1% 3% 1% 3%;
+     margin: 1% 3% 1% 3%;
      
 }
 .alfonso{
@@ -133,12 +149,12 @@ nav>a:hover{
 }
 .section__ProductorM{
     color: rgb(113, 158, 143);
-    margin: 1% 3% 1% 3%;   
+     margin: 1% 3% 1% 3%;    
 }
 .mike{
     text-decoration: underline;
     color: rgb(126, 36, 36); 
-    margin-bottom: 2rem;
+     margin-bottom: 2rem; 
     padding-bottom: 2%;
     display: flex;
     justify-content: center;
@@ -147,13 +163,13 @@ nav>a:hover{
 }
 .section__ProductorD{
     color: rgb(113, 158, 143);
-    margin: 1% 3% 1% 3%; 
+     margin: 1% 3% 1% 3%;  
    
 }
 .david{
     text-decoration: underline;
     color: rgb(126, 36, 36);  
-    margin-bottom: 2rem;
+     margin-bottom: 2rem; 
     padding: 2%;
     display: flex;
     justify-content: center;
@@ -163,7 +179,7 @@ nav>a:hover{
 .section__Textoc{
     color: rgb(113, 158, 143);
    
-    padding: 1% 1% 1% 1% ;
+    padding: 1% 1% 1% 1% ; 
 }
 .tt{
     display: flex;
@@ -175,7 +191,7 @@ nav>a:hover{
 .section__TextoJ{
     color: rgb(113, 158, 143);
   
-    padding: 1% 1% 1% 1% ;
+    padding: 1% 1% 1% 1% ; 
 }
 .ttj{
     display: flex;
@@ -184,7 +200,7 @@ nav>a:hover{
     color: rgb(126, 36, 36);
    
     padding: 1% 0 1%;
-}
+}  */
 
 /* END INDEX HEADER */
 
@@ -702,7 +718,7 @@ footer{
   
 
 
-@media screen and (max-width: 1104px) {
+ @media screen and (max-width: 1104px) {
     .headerh1{
         padding-left: 0.2rem;
     }
@@ -1040,4 +1056,4 @@ margin: 0 0.5rem 0 0.5rem ;
     display: inline-block;
 }
 
-}
+ } 
