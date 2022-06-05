@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerh1{    
+    padding-left: 9rem;
+    color: rgba(5, 1, 1, 0.24);
+    text-transform:uppercase;
+    text-decoration-line: overline;
+    font-size: xx-large;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+    nav{
+    padding-right: 3rem;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}  
+
+
+ .nev>a{
+     /* padding-right: 3rem; */
+    text-decoration:overline;
+    font-size: larger;
+    color: rgba(163, 163, 163, 0.616);
+} 
+
+
+.nev>a:hover{
+    color: rgba(32, 23, 23, 0.616);
+    
+}
+.headerh1:hover{
+    color: red;
+}

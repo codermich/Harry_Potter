@@ -32,13 +32,10 @@ footer{
 }
 
 
-  header{    
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    /* background: linear-gradient(0deg, rgba(142,142,142,1) 0%, rgba(100,100,107,1) 3%, rgba(75,75,75,1) 6%, rgba(18,17,17,1) 11%, rgba(205,5,36,1) 14%, rgba(102,47,47,1) 63%); */
-    
-} 
+.texto{
+    font-size: x-large;
+
+}
 
 .headerh1{    
     padding-left: 9rem;
@@ -870,7 +867,7 @@ footer{
     
     .hp36{
         display: block;
-    justify-content: center;
+        justify-content: center;
 
     }
     

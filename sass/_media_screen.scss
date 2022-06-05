@@ -1,0 +1,354 @@
+@media screen and (max-width: 1104px) {
+    .headerh1{
+        padding-left: 0.2rem;
+    }
+
+    header{
+       flex-direction: column;
+    }
+    nav{
+        
+        padding-left: 2rem;
+        padding-right:1rem ;
+    }
+
+    .main__Main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+        grid-template-areas: "section__Textoc"
+        "section__TextoJ "
+                            "section__Titlepro"
+                            "section__ProductorC"
+                            "section__ProductorA"
+                            "section__ProductorM"
+                            "section__ProductorD";
+                        }
+                        .fondohp{
+    
+                            display: grid;
+                            grid-template-columns: auto ;
+                            padding: 0.5rem;
+                        }
+                        .gif{
+                            display: grid;
+                            grid-template-columns: auto;
+                            
+                            
+                        }
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+        align-items: center;
+        flex-direction: column;
+        
+        
+     }
+    .headerh1{
+        padding-left: 0.2rem;
+    }
+
+  
+    nav{
+        
+        padding-left: 2rem;
+        padding-right:1rem ;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .hp3{
+        display: block;
+    justify-content: center;
+    
+    }
+    
+    
+    .hp6{
+        display: block;
+    justify-content: center;
+    
+    }
+    
+    .hp13{
+        display: block;
+    justify-content: center;
+    
+    }
+    .hp14{
+        display: block;
+    justify-content: center;
+        
+    }
+    
+    .hp36{
+        display: block;
+    justify-content: center;
+    
+    }
+    
+    .hp44{
+        display: block;
+    justify-content: center;
+    
+    }
+    
+    .hp46{
+        display: block;
+    justify-content: center;
+    
+    }
+    .contenedor{
+        background-color: rgba(11, 41, 53, 0.76);
+        display: flex;
+        flex-direction: column;
+    }
+    .hp3{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    
+    .hp6{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    .hp13{
+        display: block;
+    justify-content: center;
+
+    }
+    .hp14{
+        display: block;
+    justify-content: center;
+ 
+    }
+    
+    .hp36{
+        display: block;
+        justify-content: center;
+
+    }
+    
+    .hp44{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    .hp46{
+        display: block;
+    justify-content: center;
+
+    }
+                        .fondohp{
+    
+                            display: grid;
+                            grid-template-columns: auto ;
+                            padding: 0.5rem;
+                        }       
+                        .gif{
+                            display: grid;
+                            grid-template-columns: auto;
+                            
+                            
+                        }   
+}
+
+@media screen and (min-width: 320px) and (max-width: 562px) {
+    .headerh1{
+        padding-left: 0.2rem;
+    }
+
+    header{
+       flex-direction: column;
+    }
+
+    nav{
+        display: inline-flex;
+        flex-direction: column;
+        padding-left: 6rem;
+        padding-right:1rem ;
+    }
+    .contenedor{
+        background-color: rgba(11, 41, 53, 0.76);
+        display: flex;
+        flex-direction: column;
+    }
+    .hp3{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    
+    .hp6{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    .hp13{
+        display: block;
+    justify-content: center;
+
+    }
+    .hp14{
+        display: block;
+    justify-content: center;
+ 
+    }
+    
+    .hp36{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    .hp44{
+        display: block;
+    justify-content: center;
+
+    }
+    
+    .hp46{
+        display: block;
+    justify-content: center;
+
+    }
+   
+                       
+                        .fondohp{
+    
+                            display: grid;
+                            grid-template-columns: auto ;
+                            padding: 0.5rem;
+                        }
+                        .gif{
+                            display: grid;
+                            grid-template-columns: auto;
+                            
+                            
+                        }
+}
+
+    
+@media screen and (max-width: 320px){
+    .headerh1{
+        padding-left: 0.2rem;
+    }
+
+    header{
+       flex-direction: column;
+    }
+
+    nav{
+        display: inline-flex;
+        flex-direction: column;
+        padding-left: 6rem;
+        padding-right:1rem ;
+    }
+
+.primer__main{
+display: flex;
+flex-direction: column;
+}
+.productor__area{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.hp3{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+
+
+.hp6{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+
+.hp13{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+.hp14{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+
+.hp36{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+
+.hp44{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+
+.hp46{
+    display: block;
+justify-content: center;
+margin: 0 0.5rem 0 0.5rem ;
+}
+#carouselExampleIndicators{
+    height: 10rem;
+    width: 20rem;
+}
+iframe{
+    height: 10rem;
+    width: 20rem;
+}
+.fondohp>a>img{
+    height: 10rem;
+    width: 20rem;
+}
+.gif>img{
+    height: 10rem;
+    width: 20rem;
+}
+.section__Infowright{
+    display: inline-block;
+}
+.section__Radcliffe{
+    display: flex;
+    flex-direction: column;
+}
+.section__Infodr{
+    display: inline-block;
+}
+.section__Infowatson{
+    display: inline-block;
+}
+.section__Infolynch{
+    display: inline-block;
+}
+.section__Infolewis{
+    display: inline-block;
+}
+.section__Infogrint{
+    display: inline-block;
+}
+.section__Infofelton{
+    display: inline-block;
+}
+
+ } 

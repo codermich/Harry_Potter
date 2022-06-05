@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-agregando-bootstrap",
+  "version": "1.0.0",
+  "description": "Paquete-SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origin.scss css/origin.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codermich/Harry_Potter.git"
+  },
+  "author": "Michael ORMAZABAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codermich/Harry_Potter/issues"
+  },
+  "homepage": "https://github.com/codermich/Harry_Potter#readme"
+}
