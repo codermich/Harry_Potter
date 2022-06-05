@@ -10,23 +10,48 @@
     <link rel="stylesheet" href="../estilo.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="headerh1">Harry Potter</h1>
-        
-        <div class="header__Nav">
-           <nav class="nev">
-            <a href="../index.html">Inicio</a>
-            <a href="./actores.html">Actores</a>
-            <a href="./fondo.html">Fondos</a>
-            <a href="./gift.html">Gif</a>
-            <a href="./peliculas.html">Peliculas</a>
-           </nav>
+    <header>
+      <div class="container-fluid p-0">
+        <!-- BARRA NAVEGACIÓN -->
+        <div class="bg-light container-fluid p-0">
+            <nav class="navbar navbar-expand-md navbar-light bg-light m-0 p-0" style="background: linear-gradient(0deg, rgba(142,142,142,1) 0%, rgba(100,100,107,1) 3%, rgba(75,75,75,1) 6%, rgba(18,17,17,1) 11%, rgba(205,5,36,1) 14%, rgba(102,47,47,1) 63%);">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand text-focus-in headerh1">Harry Potter</a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+    
+                <div id="MenuNavegacion" class="collapse navbar-collapse header pe-5">
+                    <ul class="navbar-nav ms-3">
+                      
+                        <li class="nav-item nev">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item nev">
+                            <a class="nav-link" href="./actores.html">Actores</a>
+                        </li>
+                        <li class="nav-item nev">
+                            <a class="nav-link" href="./fondo.html">Fondos</a>
+                        </li>
+                        <li class="nav-item nev">
+                            <a class="nav-link" href="./gift.html">Gif</a>
+                        </li>
+                        <li class="nav-item nev">
+                            <a class="nav-link" href="./peliculas.html">Peliculas</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
-<main>
-    <section class="conteiner">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
+    <main>
+   <section class="justify-content-center ">
+    
+    <section class="container d-flex justify-content-center py-5">
+        <div id="carouselExampleIndicators" class="carousel" data-bs-ride="true">
+            <div class="carousel-indicators ">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -42,7 +67,7 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 16"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="17" aria-label="Slide 18"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="18" aria-label="Slide 19"></button>
@@ -147,8 +172,8 @@
                 <img src="../imagenes/img-fondo/98449-1.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="../imagenes/img-fondo/178309-1.png" class="d-block w-100" alt="...">
-              </div>
+                <img src="../imagenes/img-fondo/178309-1.jpg" class="d-block w-100" alt="...">
+              </div> 
           
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -162,11 +187,12 @@
           </div>
 
     </section>
-
-
+    <!-- <div><img class="bhhp" src="/imagenes/img-fondo/hogwartsww.png" alt=""></div> -->
+  </section>
     <section class="fondohp">
+
      
-     <a href="../imagenes/img-fondo/144759.jpg" target="_blank"><img src="../imagenes/img-fondo/144759-1.png" alt=""></a>
+     <a href="../imagenes/img-fondo/144759.jpg" target="_blank"><img  src="../imagenes/img-fondo/144759-1.png" alt=""></a>
      <a href="../imagenes/img-fondo/242396.jpg" target="_blank"><img src="../imagenes/img-fondo/242396-1.png" alt=""></a>
      <a href="../imagenes/img-fondo/273765.jpg" target="_blank"><img src="../imagenes/img-fondo/273765-1.png" alt=""></a>
      <a href="../imagenes/img-fondo/330781.jpg" target="_blank"><img src="../imagenes/img-fondo/330781-1.png" alt=""></a>
@@ -196,7 +222,7 @@
      <a href="../imagenes/img-fondo/853375.jpg" target="_blank"><img src="../imagenes/img-fondo/853375-1.png" alt=""></a>
      <a href="../imagenes/img-fondo/96278-1.jpg" target="_blank"><img src="../imagenes/img-fondo/96278-1.png" alt=""></a>
      <a href="../imagenes/img-fondo/98449-1.jpg" target="_blank"><img src="../imagenes/img-fondo/98449-1.png" alt=""></a>
-     <a href="../imagenes/img-fondo/178309.jpg" target="_blank"><img src="../imagenes/img-fondo/178309-1.png" alt=""></a>
+     <a href="../imagenes/img-fondo/178309.jpg" target="_blank"><img src="../imagenes/img-fondo/178309-1.jpg" alt=""></a>
     </section>
 </main>
     <footer> <h1 class="fot">Always</h1></footer>
