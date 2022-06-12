@@ -110,9 +110,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "header"
- "main"
- "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 header {
   grid-area: header; }
@@ -193,6 +191,41 @@ footer {
   justify-content: flex-start;
   margin-left: 10rem; }
 
+.hp111 {
+  display: flex !important;
+  align-content: center !important;
+  flex-wrap: wrap !important; }
+
+.hp112 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important; }
+
+.hp113 {
+  display: flex !important;
+  align-content: center !important;
+  flex-wrap: wrap !important; }
+
+.hp114 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important; }
+
+.hp115 {
+  display: flex !important;
+  align-content: center !important;
+  flex-wrap: wrap !important; }
+
+.hp116 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important; }
+
+.hp117 {
+  display: flex !important;
+  align-content: center !important;
+  flex-wrap: wrap !important; }
+
 /* DANIEL RAD */
 .drhp {
   background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
@@ -208,8 +241,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -244,8 +276,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -280,8 +311,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -316,8 +346,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -352,8 +381,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -388,8 +416,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -424,8 +451,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco"
- "RDsiete RDcuatro RDseis"; }
+    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
   .drhp .RDdos {
     grid-area: RDdos;
     margin: 0.3rem; }
@@ -519,6 +545,10 @@ footer {
     filter: blur(0px);
     opacity: 1; } }
 
+@media screen and (max-width: 1200px) {
+  .fondohp {
+    grid-template-columns: auto auto; } }
+
 @media screen and (max-width: 1104px) {
   .headerh1 {
     padding-left: 0.2rem; }
@@ -530,20 +560,19 @@ footer {
   .main__Main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "section__Textoc"
- "section__TextoJ "
- "section__Titlepro"
- "section__ProductorC"
- "section__ProductorA"
- "section__ProductorM"
- "section__ProductorD"; }
+    grid-template-areas: "section__Textoc" "section__TextoJ " "section__Titlepro" "section__ProductorC" "section__ProductorA" "section__ProductorM" "section__ProductorD"; }
   .fondohp {
     display: grid;
     grid-template-columns: auto;
     padding: 0.5rem; }
   .gif {
     display: grid;
-    grid-template-columns: auto; } }
+    grid-template-columns: auto; }
+  .section__carrusel {
+    align-content: flex-end;
+    display: block;
+    width: 100%;
+    height: 200px; } }
 
 @media screen and (max-width: 768px) {
   header {
@@ -733,6 +762,7 @@ footer {
 
 /* FOOTER */
 footer {
+  font-size: xx-large;
   height: 4rem;
   background: linear-gradient(0deg, #d11919 28%, #a71d1d 43%, #2b2828 83%, #5a5a60 92%, #64646b 96%, #8e8e8e 100%);
   text-align: center; }

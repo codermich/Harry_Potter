@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(54,0,250,1) 100%);
+
+}
 
 
 /* INDEX HEADER*/
 .main__Main{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
   body{ 
-      background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);;
-    display: grid;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "header"
@@ -31,15 +33,35 @@ footer{
     grid-area: footer;
 }
 
+.section__Textoc{
+    background-image: url(/imagenes/trr.jpg);
+    color: aliceblue;
+}
+.primer__main__rut{
+background-color: crimson;
+}
+.texto{
+    color: rgb(48, 18, 0);
+}
+.textoo{
+    color: aliceblue;
+}
+.section__TextoJ{
+    background-image: url(/imagenes/trr.jpg);
+    color: aliceblue;
+}
 
 .texto{
     font-size: x-large;
 
 }
 
+body{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
+
 .headerh1{    
     padding-left: 9rem;
-    color: rgba(5, 1, 1, 0.24);
+    color: rgb(0, 0, 0);
     text-transform:uppercase;
     text-decoration-line: overline;
     font-size: xx-large;
@@ -58,14 +80,14 @@ footer{
      /* padding-right: 3rem; */
     text-decoration:overline;
     font-size: larger;
-    color: rgba(163, 163, 163, 0.616);
+    color: rgb(163, 163, 163);
 } 
 .nev>a:hover{
     color: rgba(32, 23, 23, 0.616);
     
 }
 .headerh1:hover{
-    color: red;
+    color: rgb(236, 141, 15);
 }
 
 .chris{
@@ -89,17 +111,16 @@ footer{
     justify-content: center;
     align-items: center; 
 }
-.section__Textoc{
-    color: rgb(113, 158, 143);
-}
+
 .section__TextoJ{
-    color: rgb(113, 158, 143);
+    color: rgb(29, 185, 133);
      display: inline;
  justify-self: flex-end; 
 
 }
 
 .section__Titlepro{
+    
      color: rgb(113, 158, 143);
     margin-bottom: 5%;
      margin-left: 2%;
@@ -108,7 +129,7 @@ footer{
 
 .protitle{
     text-decoration: underline;
-    color: rgb(126, 36, 36);
+    color: rgb(255, 16, 16);
      padding-bottom: 1%; 
 } 
 
@@ -215,8 +236,7 @@ footer{
 /* ACTORES SECTION */
 .contenedor{
     display: flex;
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-    padding-top: 2rem;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);    padding-top: 2rem;
     padding-bottom: 2rem;
     flex-direction: column;
     
@@ -283,8 +303,7 @@ footer{
 
 /* DANIEL RAD */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .harry{
     margin: 1rem 0 1.5rem 9rem;
@@ -332,8 +351,7 @@ footer{
 
 /* BONNI WRIGHT */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .wright{
     margin: 1rem 0 1.5rem 9rem;
@@ -382,8 +400,7 @@ footer{
 
 /* EMMA WATSON */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .watson{
     margin: 1rem 0 1.5rem 9rem;
@@ -430,8 +447,7 @@ footer{
 
 /* EVANNA LINCH */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .lynch{
     margin: 1rem 0 1.5rem 9rem;
@@ -478,8 +494,7 @@ footer{
 
 /* MATTHEW LEWIS */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .lewis{
     margin: 1rem 0 1.5rem 9rem;
@@ -526,8 +541,7 @@ footer{
 
 /* RUPERT GRINT */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
 
 .grint{
     margin: 1rem 0 1.5rem 9rem;
@@ -574,7 +588,7 @@ footer{
 
 /* TOM FELTON */
 .drhp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);
 }
 
 .felton{
@@ -647,9 +661,51 @@ footer{
     grid-template-columns: auto auto auto;
     padding: 0.5rem;
 }
-
-.fondohp>a>img{
+.hp111{
+background-color: brown;
+    display: flex!important;
+    align-content: center!important;
+    flex-wrap: wrap!important;
+}
+.hp112{
+    background-color: brown;
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: center!important;
+}
+.hp113{
+    background-color: brown;
+    display: flex!important;
+    align-content: center!important;
+    flex-wrap: wrap!important;
+}
+.hp114{background-color: brown;
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: center!important;
+}
+.hp115{
+    background-color: brown;
+    display: flex!important;
+    align-content: center!important;
+    flex-wrap: wrap!important;
+}
+.hp116{background-color: brown;
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: center!important;
+}
+.hp117{
+    background-color: brown;
+    display: flex!important;
+    align-content: center!important;
+    flex-wrap: wrap!important;
+}
+.fondohp>a>img{background-color: brown;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.roca{
+    background-color: brown;
 }
 
 /* GIF */
@@ -660,8 +716,8 @@ footer{
     
 }
 .gif{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color:rgba(11, 41, 53, 0.76) ; */
-    justify-items: center;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);
+        justify-items: center;
     
 }
 .gif>img{
@@ -671,6 +727,7 @@ footer{
 /* FOOTER */
 
 footer{
+    font-size: xx-large;
     height: 4rem;
     background: linear-gradient(0deg, rgba(209,25,25,1) 28%, rgba(167,29,29,1) 43%, rgba(43,40,40,1) 83%, rgba(90,90,96,1) 92%, rgba(100,100,107,1) 96%, rgba(142,142,142,1) 100%);
     text-align: center;
@@ -730,7 +787,10 @@ footer{
     }
   }
   
+@media screen and (max-width: 1200px) {
+    .fondohp{ grid-template-columns: auto auto}
 
+}
 
  @media screen and (max-width: 1104px) {
     .headerh1{
@@ -1084,5 +1144,25 @@ iframe{
 .section__Infofelton{
     display: inline-block;
 }
-
+.hp3{
+    flex-direction: column;
+}
+.hp6{
+    flex-direction: column;
+}
+.hp13{
+    flex-direction: column;
+}
+.hp14{
+    flex-direction: column;
+}
+.hp36{
+    flex-direction: column;
+}
+.hp44{
+    flex-direction: column;
+}
+.hp46{
+    flex-direction: column;
+}
  } 
