@@ -1,0 +1,143 @@
+/* ACTORES SECTION----PAGINA DEL INDEX----------------------------------------------------------------------------------------------------PAGINA DEL INDEX--------------------ACTORE SECTION */
+.contenedor{
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "hp3"
+                         "hp6"
+                         "hp13"
+                         "hp14"
+                         "hp36"
+                         "hp44"
+                         "hp46" ;
+}
+.hp3{
+    grid-area: hp3;
+}
+.hp6{
+    grid-area: hp6;
+}
+.hp13{
+    grid-area: hp13;
+}
+.hp14{
+    grid-area: hp14;
+}
+.hp36{
+    grid-area: hp36;
+}
+.hp44{
+    grid-area: hp44;
+}
+.hp46{
+    grid-area: hp46;
+}
+.contenedor{
+    display: flex;
+    background:$backgbody;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    
+}
+.section__contenedor--actores{
+    font-size: xx-large;
+    color: rgb(5, 4, 4);
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor img{
+    padding: 2rem 0 2rem 0;
+}
+.hp3{
+    
+    justify-content: flex-start; 
+    margin-left: 10rem;
+}
+
+
+.hp6{
+    
+    display: flex;
+     justify-content: flex-end; 
+    margin-right: 10rem;
+}
+
+.hp13{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+}
+.hp14{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+}
+
+.hp36{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+}
+
+.hp44{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+}
+
+.hp46{
+   
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+}
+
+.hp111{
+    background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp112{
+        background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp113{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp114{background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp115{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp116{background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp117{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+
+
+/* END------------------------------------------------------------------------------------------------------------------------------------------------------------SECTION ACTORES FIN */

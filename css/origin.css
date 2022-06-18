@@ -3,110 +3,18 @@
   padding: 0;
   box-sizing: border-box; }
 
-.headerh1 {
-  padding-left: 9rem;
-  color: rgba(5, 1, 1, 0.24);
-  text-transform: uppercase;
-  text-decoration-line: overline;
-  font-size: xx-large;
-  margin-top: 1%;
-  margin-bottom: 1%; }
+header {
+  background: linear-gradient(0deg, white 0%, #3600fa 100%); }
 
-nav {
-  padding-right: 3rem;
-  margin-top: 1%;
-  margin-bottom: 1%; }
-
-.nev > a {
-  /* padding-right: 3rem; */
-  text-decoration: overline;
-  font-size: larger;
-  color: rgba(163, 163, 163, 0.616); }
-
-.nev > a:hover {
-  color: rgba(32, 23, 23, 0.616); }
-
-.headerh1:hover {
-  color: red; }
+/* INDEX HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+  background: linear-gradient(0deg, white 96%, #f1f0f0 100%); }
 
 .main__Main {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%); }
-  .main__Main .primer__main {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .main__Main .primer__main .section__Textoc {
-      color: color #719e8f; }
-      .main__Main .primer__main .section__Textoc .tt {
-        display: flex;
-        justify-content: center;
-        text-decoration: underline;
-        color: #7e2424;
-        padding: 1% 0 1%; }
-  .main__Main .section__Titlepro {
-    color: color #719e8f;
-    margin-bottom: 5%;
-    margin-left: 2%;
-    margin-right: 2%; }
-    .main__Main .section__Titlepro .protitle {
-      text-decoration: underline;
-      color: #7e2424;
-      padding-bottom: 1%; }
-  .main__Main .productor__area {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .main__Main .productor__area .section__ProductorC {
-      color: color #719e8f;
-      margin: 0 3% 1% 3%; }
-      .main__Main .productor__area .section__ProductorC .chris, .main__Main .productor__area .section__ProductorC .section__ProductorC {
-        display: flex;
-        justify-content: center;
-        text-decoration: underline;
-        color: #7e2424;
-        margin-bottom: 2rem;
-        padding-bottom: 2%;
-        display: flex;
-        justify-content: center; }
-  .main__Main .section__ProductorA {
-    color: color #719e8f;
-    margin: 1% 3% 1% 3%; }
-    .main__Main .section__ProductorA .alfonso {
-      display: flex;
-      justify-content: center;
-      text-decoration: underline;
-      color: #7e2424;
-      margin-bottom: 2rem;
-      padding-bottom: 2%;
-      display: flex;
-      justify-content: center; }
-  .main__Main .section__ProductorM {
-    color: #719e8f;
-    margin: 1% 3% 1% 3%; }
-    .main__Main .section__ProductorM .mike {
-      display: flex;
-      justify-content: center;
-      text-decoration: underline;
-      color: #7e2424;
-      margin-bottom: 2rem;
-      padding-bottom: 2%;
-      display: flex;
-      justify-content: center; }
-  .main__Main .section__ProductorD {
-    color: #719e8f;
-    margin: 1% 3% 1% 3%; }
-    .main__Main .section__ProductorD .david {
-      display: flex;
-      justify-content: center;
-      text-decoration: underline;
-      color: #7e2424;
-      margin-bottom: 2rem;
-      padding: 2%;
-      display: flex;
-      justify-content: center; }
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
 
 body {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
+  background: linear-gradient(0deg, white 96%, #f1f0f0 100%);
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -121,36 +29,201 @@ main {
 footer {
   grid-area: footer; }
 
+.section__Textoc {
+  background-image: url(/imagenes/trr.jpg);
+  color: aliceblue; }
+
+.primer__main__rut {
+  background-color: crimson; }
+
+.texto {
+  color: black; }
+
+.textoo {
+  color: aliceblue; }
+
 .section__TextoJ {
-  color: color #719e8f;
+  background-image: url(/imagenes/trr.jpg);
+  color: aliceblue; }
+
+.texto {
+  font-size: x-large; }
+
+.headerh1 {
+  padding-left: 9rem;
+  color: black;
+  text-transform: uppercase;
+  text-decoration-line: overline;
+  font-size: xx-large;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+
+nav {
+  padding-right: 3rem;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+
+.nev > a {
+  text-decoration: overline;
+  font-size: larger;
+  color: #030202; }
+
+.nev > a:hover {
+  color: rgba(161, 14, 14, 0.897); }
+
+.headerh1:hover {
+  color: #ec8d0f; }
+
+.chris {
+  display: flex;
+  justify-content: center; }
+
+.alfonso {
+  display: flex;
+  justify-content: center; }
+
+.david {
+  display: flex;
+  justify-content: center; }
+
+.mike {
+  display: flex;
+  justify-content: center; }
+
+.primer__main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section__TextoJ {
+  color: #1db985;
   display: inline;
   justify-self: flex-end; }
-  .section__TextoJ .ttj {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    color: #7e2424;
-    padding: 1% 0 1%; }
+
+.section__Titlepro {
+  padding: 2rem;
+  border-style: inset;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.productor__area {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section__ProductorC {
+  color: #719e8f;
+  margin: 0 3% 1% 3%; }
+
+.chris {
+  text-decoration: underline;
+  color: #0e0b0b;
+  margin-bottom: 2rem;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center; }
+
+.section__ProductorA {
+  color: #719e8f;
+  margin: 1% 3% 1% 3%; }
+
+.alfonso {
+  text-decoration: underline;
+  color: #070505;
+  margin-bottom: 2rem;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center; }
+
+.section__ProductorM {
+  color: #719e8f;
+  margin: 1% 3% 1% 3%; }
+
+.mike {
+  text-decoration: underline;
+  color: #0c0a0a;
+  margin-bottom: 2rem;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center; }
+
+.section__ProductorD {
+  color: #719e8f;
+  margin: 1% 3% 1% 3%; }
+
+.david {
+  text-decoration: underline;
+  color: #070505;
+  margin-bottom: 2rem;
+  padding: 2%;
+  display: flex;
+  justify-content: center; }
 
 .section__Textoc {
   color: #719e8f;
   padding: 1% 1% 1% 1%; }
 
+.directores {
+  display: flex;
+  display: inline;
+  align-content: flex-start; }
+
+.tt {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #080707;
+  padding: 1% 0 1%; }
+
 .section__TextoJ {
   color: #719e8f;
   padding: 1% 1% 1% 1%; }
 
+.ttj {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #070505;
+  padding: 1% 0 1%; }
+
+/* END INDEX HEADER---------------------------------------------------------------------------------------------------------------------------------------------------END INDEX HEADER */
+/* ACTORES SECTION----PAGINA DEL INDEX----------------------------------------------------------------------------------------------------PAGINA DEL INDEX--------------------ACTORE SECTION */
+.contenedor {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "hp3" "hp6" "hp13" "hp14" "hp36" "hp44" "hp46"; }
+
+.hp3 {
+  grid-area: hp3; }
+
+.hp6 {
+  grid-area: hp6; }
+
+.hp13 {
+  grid-area: hp13; }
+
+.hp14 {
+  grid-area: hp14; }
+
+.hp36 {
+  grid-area: hp36; }
+
+.hp44 {
+  grid-area: hp44; }
+
+.hp46 {
+  grid-area: hp46; }
+
 .contenedor {
   display: flex;
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */
-  padding-top: 2rem;
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%);
   padding-bottom: 2rem;
   flex-direction: column; }
 
 .section__contenedor--actores {
   font-size: xx-large;
-  color: #7e2424;
+  color: #050404;
   display: flex;
   justify-content: center; }
 
@@ -192,293 +265,377 @@ footer {
   margin-left: 10rem; }
 
 .hp111 {
+  background-color: brown;
   display: flex !important;
   align-content: center !important;
   flex-wrap: wrap !important; }
 
 .hp112 {
+  background-color: brown;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important; }
 
 .hp113 {
+  background-color: brown;
   display: flex !important;
   align-content: center !important;
   flex-wrap: wrap !important; }
 
 .hp114 {
+  background-color: brown;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important; }
 
 .hp115 {
+  background-color: brown;
   display: flex !important;
   align-content: center !important;
   flex-wrap: wrap !important; }
 
 .hp116 {
+  background-color: brown;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important; }
 
 .hp117 {
+  background-color: brown;
   display: flex !important;
   align-content: center !important;
   flex-wrap: wrap !important; }
 
-/* DANIEL RAD */
+/* END------------------------------------------------------------------------------------------------------------------------------------------------------------SECTION ACTORES FIN */
+/* PAGINAS ACTORES------------------------------------------------------------------------------------------------------------------------------------------------------------PAGINAS ACTORES */
+/* DANIEL RADCLIFE---------------------------------------------------------------------------------------------------------------------------------------------------------DANIEL RADCLIFE */
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .harry {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .harryp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
 
-/* BONNI WRIGHT */
+.harry {
+  margin: 1rem 0 1.5rem 9rem;
+  color: black;
+  text-decoration: overline; }
+
+.harryp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* DANIEL RADCLIFFE------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* BONNI WRIGHT------------------------------------------------------------------------------------------------------------------------------------------------------------------BONNI WRIGHT*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .wright {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .wrightp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* EMMA WATSON */
+.wright {
+  margin: 1rem 0 1.5rem 9rem;
+  color: black;
+  text-decoration: overline; }
+
+.wrightp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* BONNI WRIGHT---------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------EMMA WATSOM*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .watson {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .watsonp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* EVANNA LINCH */
+.watson {
+  margin: 1rem 0 1.5rem 9rem;
+  color: black;
+  text-decoration: overline; }
+
+.watsonp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* EVANNA LINCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------EVANNA LYNCH*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .lynch {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .lynchp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* MATTHEW LEWIS */
+.lynch {
+  margin: 1rem 0 1.5rem 9rem;
+  color: black;
+  text-decoration: overline; }
+
+.lynchp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* EVANNA LYNCH-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* MATTHEW LEWIS-------------------------------------------------------------------------------------------------------------------------------------------------------------------MATTHEW LEWIS*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .lewis {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .lewisp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* RUPERT GRINT */
+.lewis {
+  margin: 1rem 0 1.5rem 9rem;
+  color: rgbrgb(0, 0, 0);
+  text-decoration: overline; }
+
+.lewisp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* MATTHEW LEWIS----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* RUPERT GRINT------------------------------------------------------------------------------------------------------------------------------------------------------------------RUPERT GRINT*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .grint {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .grintp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* TOM FELTON */
+.grint {
+  margin: 1rem 0 1.5rem 9rem;
+  color: rgbrgb(0, 0, 0);
+  text-decoration: overline; }
+
+.grintp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* RUPERT GRINT-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+/* TOM FELTON------------------------------------------------------------------------------------------------------------------------------------------------------------------TOM FELTON*/
 .drhp {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */ }
-  .drhp .felton {
-    margin: 1rem 0 1.5rem 9rem;
-    color: #7e2424;
-    text-decoration: overline; }
-  .drhp .feltonp {
-    margin: 0 0 5rem 2rem;
-    color: #719e8f; }
-  .drhp .section__Radcliffe {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
-  .drhp .RDdos {
-    grid-area: RDdos;
-    margin: 0.3rem; }
-  .drhp .RDtres {
-    grid-area: RDtres;
-    margin: 0.3rem; }
-  .drhp .RDcuatro {
-    grid-area: RDcuatro;
-    margin: 0.3rem; }
-  .drhp .RDcinco {
-    grid-area: RDcinco;
-    margin: 0.3rem; }
-  .drhp .RDseis {
-    grid-area: RDseis;
-    margin: 0.3rem; }
-  .drhp .RDsiete {
-    grid-area: RDsiete;
-    margin: 0.3rem; }
+  background-color: brown; }
 
-/* FONDOS */
+.felton {
+  margin: 1rem 0 1.5rem 9rem;
+  color: rgbrgb(0, 0, 0);
+  text-decoration: overline; }
+
+.feltonp {
+  margin: 0 0 5rem 2rem;
+  color: black;
+  font-size: x-large; }
+
+.section__Radcliffe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "RDdos RDtres RDcinco" "RDsiete RDcuatro RDseis"; }
+
+.RDdos {
+  grid-area: RDdos;
+  margin: 0.3rem; }
+
+.RDtres {
+  grid-area: RDtres;
+  margin: 0.3rem; }
+
+.RDcuatro {
+  grid-area: RDcuatro;
+  margin: 0.3rem; }
+
+.RDcinco {
+  grid-area: RDcinco;
+  margin: 0.3rem; }
+
+.RDseis {
+  grid-area: RDseis;
+  margin: 0.3rem; }
+
+.RDsiete {
+  grid-area: RDsiete;
+  margin: 0.3rem; }
+
+/* TOM FELTON--------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+/* PAGINAS ACTORES---------------------------------------------------------------------------------------------------------------------------------------------------PAGINAS ACTORES FIN*/
+/* FONDOS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------FONDOS*/
+.fondo {
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+
 .item {
   display: block;
   width: 100%;
   height: 200px; }
-  .item .item img {
-    height: 100%;
-    width: 100%; }
+
+.item img {
+  height: 100%;
+  width: 100%; }
 
 .carousel > .carousel-inner > .item > img {
   width: 640px;
@@ -488,32 +645,67 @@ footer {
   width: 640px;
   height: 360px; }
 
-/* .fondohp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color: rgba(11, 41, 53, 0.76); */
 .fondohp {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 0.5rem; }
-  .fondohp .fondohp > a > img {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
+  grid-template-columns: auto auto;
+  justify-content: center; }
 
-/* GIF */
+.fondohp > div {
+  margin: 1rem; }
+
+.fondohp > a > img {
+  background-color: brown;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
+
+.roca {
+  background-color: brown; }
+
+/* FIN----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* GIF----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GIF*/
 .gif {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; }
 
 .gif {
-  background: linear-gradient(0deg, #48484d 0%, #705c5c 50%, #535353 100%);
-  /* background-color:rgba(11, 41, 53, 0.76) ; */
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%);
   justify-items: center; }
-  .gif .gif > img {
-    margin: 1% 0.5% 0 0.5%; }
 
-.text-focus-in {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+.gif > img {
+  margin: 1% 0.5% 0 0.5%; }
 
+/* FIN---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+/* CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------CONTACTO*/
+.body__contacto {
+  height: 100;
+  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+
+.section__From {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* FIN --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+/* FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOOTER*/
+.pie {
+  background-color: #df8787; }
+
+footer {
+  font-size: xx-large;
+  height: 4rem;
+  background-color: #a13030;
+  text-align: center; }
+
+.fot {
+  padding-top: 1rem;
+  text-decoration: underline; }
+
+.fot:hover {
+  color: #850e0e; }
+
+/*FIN------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+/* KEYFRAMES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------KEYFRAMES */
 /* ----------------------------------------------
  * Generated by Animista on 2022-5-29 11:41:4
  * Licensed under FreeBSD License.
@@ -545,6 +737,8 @@ footer {
     filter: blur(0px);
     opacity: 1; } }
 
+/* FIN-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+/* MEDIAS Q --------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIAS Q */
 @media screen and (max-width: 1200px) {
   .fondohp {
     grid-template-columns: auto auto; } }
@@ -567,12 +761,7 @@ footer {
     padding: 0.5rem; }
   .gif {
     display: grid;
-    grid-template-columns: auto; }
-  .section__carrusel {
-    align-content: flex-end;
-    display: block;
-    width: 100%;
-    height: 200px; } }
+    grid-template-columns: auto; } }
 
 @media screen and (max-width: 768px) {
   header {
@@ -608,7 +797,7 @@ footer {
     display: block;
     justify-content: center; }
   .contenedor {
-    background-color: rgba(11, 41, 53, 0.76);
+    background-color: brown;
     display: flex;
     flex-direction: column; }
   .hp3 {
@@ -651,7 +840,7 @@ footer {
     padding-left: 6rem;
     padding-right: 1rem; }
   .contenedor {
-    background-color: rgba(11, 41, 53, 0.76);
+    background-color: brown;
     display: flex;
     flex-direction: column; }
   .hp3 {
@@ -758,51 +947,18 @@ footer {
   .section__Infogrint {
     display: inline-block; }
   .section__Infofelton {
-    display: inline-block; } }
-
-/* FOOTER */
-footer {
-  font-size: xx-large;
-  height: 4rem;
-  background: linear-gradient(0deg, #d11919 28%, #a71d1d 43%, #2b2828 83%, #5a5a60 92%, #64646b 96%, #8e8e8e 100%);
-  text-align: center; }
-  footer .fot {
-    padding-top: 1rem;
-    /* background: linear-gradient(0deg, rgba(9,6,54,1) 5%, rgba(10,59,27,1) 37%, rgba(21,153,136,1) 100%); */
-    /* color: rgba(5, 1, 1, 0.24); */
-    text-decoration: underline; }
-    footer .fot .fot:hover {
-      color: #850e0e; }
-
-/* END FOOTER */
-.chris, .section__ProductorC {
-  text-decoration: underline;
-  color: #7e2424;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
-
-.alfonso {
-  text-decoration: underline;
-  color: #7e2424;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
-
-.mike {
-  text-decoration: underline;
-  color: #7e2424;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
-
-.david {
-  text-decoration: underline;
-  color: #7e2424;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
+    display: inline-block; }
+  .hp3 {
+    flex-direction: column; }
+  .hp6 {
+    flex-direction: column; }
+  .hp13 {
+    flex-direction: column; }
+  .hp14 {
+    flex-direction: column; }
+  .hp36 {
+    flex-direction: column; }
+  .hp44 {
+    flex-direction: column; }
+  .hp46 {
+    flex-direction: column; } }

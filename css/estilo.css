@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(54,0,250,1) 100%);
 
 }
 
 
-/* INDEX HEADER*/
-.main__Main{
+/* INDEX HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
     background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
+.main__Main{
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);}
 
   body{ 
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);    display: grid;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);    
+    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "header"
@@ -41,7 +45,7 @@ footer{
 background-color: crimson;
 }
 .texto{
-    color: rgb(48, 18, 0);
+    color: rgb(0, 0, 0);
 }
 .textoo{
     color: aliceblue;
@@ -52,12 +56,11 @@ background-color: crimson;
 }
 
 .texto{
+    
     font-size: x-large;
-
 }
 
-body{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
+
 
 .headerh1{    
     padding-left: 9rem;
@@ -77,13 +80,13 @@ body{
 
 
  .nev>a{
-     /* padding-right: 3rem; */
+ 
     text-decoration:overline;
     font-size: larger;
-    color: rgb(163, 163, 163);
+    color: rgb(3, 2, 2);
 } 
 .nev>a:hover{
-    color: rgba(32, 23, 23, 0.616);
+    color: rgba(161, 14, 14, 0.897);
     
 }
 .headerh1:hover{
@@ -120,18 +123,12 @@ body{
 }
 
 .section__Titlepro{
-    
-     color: rgb(113, 158, 143);
-    margin-bottom: 5%;
-     margin-left: 2%;
-    margin-right: 2%;  
+    padding: 2rem;
+    border-style:inset;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-.protitle{
-    text-decoration: underline;
-    color: rgb(255, 16, 16);
-     padding-bottom: 1%; 
-} 
 
  .productor__area{
       display: flex;
@@ -145,7 +142,7 @@ body{
 .chris{
 
     text-decoration: underline;
-    color: rgb(126, 36, 36);
+    color: rgb(14, 11, 11);
      margin-bottom: 2rem;
     padding-bottom: 2%;
     display: flex;
@@ -159,7 +156,7 @@ body{
 }
 .alfonso{
     text-decoration: underline;
-    color: rgb(126, 36, 36);
+    color: rgb(7, 5, 5);
      margin-bottom: 2rem;
     padding-bottom: 2%;
     display: flex;
@@ -173,7 +170,7 @@ body{
 }
 .mike{
     text-decoration: underline;
-    color: rgb(126, 36, 36); 
+    color: rgb(12, 10, 10); 
       margin-bottom: 2rem; 
     padding-bottom: 2%;
     display: flex;
@@ -188,7 +185,7 @@ body{
 }
 .david{
     text-decoration: underline;
-    color: rgb(126, 36, 36);  
+    color: rgb(7, 5, 5);  
      margin-bottom: 2rem; 
     padding: 2%;
     display: flex;
@@ -201,11 +198,20 @@ body{
    
     padding: 1% 1% 1% 1% ; 
 }
+
+
+.directores{
+    display: flex;
+    display: inline;
+    align-content:flex-start;
+   
+}
+
 .tt{
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    color: rgb(126, 36, 36);
+    color: rgb(8, 7, 7);
     padding: 1% 0 1%;
 }
 .section__TextoJ{
@@ -217,12 +223,12 @@ body{
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    color: rgb(126, 36, 36);
+    color: rgb(7, 5, 5);
    
     padding: 1% 0 1%;
 }   
 
-/* END INDEX HEADER */
+/* END INDEX HEADER---------------------------------------------------------------------------------------------------------------------------------------------------END INDEX HEADER */
 
 
 
@@ -233,17 +239,51 @@ body{
 
 
 
-/* ACTORES SECTION */
+/* ACTORES SECTION----PAGINA DEL INDEX----------------------------------------------------------------------------------------------------PAGINA DEL INDEX--------------------ACTORE SECTION */
+.contenedor{
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "hp3"
+                         "hp6"
+                         "hp13"
+                         "hp14"
+                         "hp36"
+                         "hp44"
+                         "hp46" ;
+}
+.hp3{
+    grid-area: hp3;
+}
+.hp6{
+    grid-area: hp6;
+}
+.hp13{
+    grid-area: hp13;
+}
+.hp14{
+    grid-area: hp14;
+}
+.hp36{
+    grid-area: hp36;
+}
+.hp44{
+    grid-area: hp44;
+}
+.hp46{
+    grid-area: hp46;
+}
 .contenedor{
     display: flex;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);    padding-top: 2rem;
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);
     padding-bottom: 2rem;
     flex-direction: column;
     
 }
 .section__contenedor--actores{
     font-size: xx-large;
-    color: rgb(126, 36, 36);
+    color: rgb(5, 4, 4);
     display: flex;
     justify-content: center;
 
@@ -259,6 +299,7 @@ body{
 
 
 .hp6{
+    
     display: flex;
      justify-content: flex-end; 
     margin-right: 10rem;
@@ -271,49 +312,94 @@ body{
     margin-left: 10rem;
 }
 .hp14{
+    
     display: flex;
     justify-content: flex-end;
     margin-right: 10rem;
 }
 
 .hp36{
+    
     display: flex;
     justify-content: flex-start;
     margin-left: 10rem;
 }
 
 .hp44{
+    
     display: flex;
     justify-content: flex-end;
     margin-right: 10rem;
 }
 
 .hp46{
+   
     display: flex;
     justify-content: flex-start;
     margin-left: 10rem;
 }
 
+.hp111{
+    background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp112{
+        background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp113{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp114{background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp115{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
+    .hp116{background-color: brown;
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+    .hp117{
+        background-color: brown;
+        display: flex!important;
+        align-content: center!important;
+        flex-wrap: wrap!important;
+    }
 
-/* END SECTION ACTORES */
+
+/* END------------------------------------------------------------------------------------------------------------------------------------------------------------SECTION ACTORES FIN */
 
 
 
-/* PAGINAS ACTORES */
+/* PAGINAS ACTORES------------------------------------------------------------------------------------------------------------------------------------------------------------PAGINAS ACTORES */
 
-/* DANIEL RAD */
+/* DANIEL RADCLIFE---------------------------------------------------------------------------------------------------------------------------------------------------------DANIEL RADCLIFE */
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
-
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);}
 .harry{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .harryp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -347,21 +433,22 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* DANIEL RADCLIFFE------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
 
-/* BONNI WRIGHT */
+/* BONNI WRIGHT------------------------------------------------------------------------------------------------------------------------------------------------------------------BONNI WRIGHT*/
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
-
+    background-color: brown;}
 .wright{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .wrightp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -395,22 +482,22 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* BONNI WRIGHT---------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
 
-
-/* EMMA WATSON */
+/* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------EMMA WATSOM*/
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
-
+    background-color: brown;}
 .watson{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .watsonp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -444,20 +531,22 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
-/* EVANNA LINCH */
+
+/* EVANNA LINCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------EVANNA LYNCH*/
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
-
+    background-color: brown;}
 .lynch{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .lynchp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -491,20 +580,22 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* EVANNA LYNCH-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
-/* MATTHEW LEWIS */
+
+/* MATTHEW LEWIS-------------------------------------------------------------------------------------------------------------------------------------------------------------------MATTHEW LEWIS*/
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
-
+    background-color: brown;}
 .lewis{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgbrgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .lewisp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -538,20 +629,24 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* MATTHEW LEWIS----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
-/* RUPERT GRINT */
+
+/* RUPERT GRINT------------------------------------------------------------------------------------------------------------------------------------------------------------------RUPERT GRINT*/ 
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);}
+    background-color: brown;
+}
 
 .grint{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgbrgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .grintp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -585,21 +680,22 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* RUPERT GRINT-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
 
-/* TOM FELTON */
+/* TOM FELTON------------------------------------------------------------------------------------------------------------------------------------------------------------------TOM FELTON*/
 .drhp{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);
-}
+background-color: brown;}
 
 .felton{
     margin: 1rem 0 1.5rem 9rem;
-    color: rgb(126, 36, 36);
+    color: rgbrgb(0, 0, 0);
     text-decoration:overline;
 }
 
 .feltonp{
     margin: 0 0 5rem 2rem;
-    color: rgb(113, 158, 143);
+    color: rgb(0, 0, 0);
+    font-size:x-large;
 }
 .section__Radcliffe{
     display: grid;
@@ -633,11 +729,16 @@ body{
     grid-area: RDsiete ;
     margin: 0.3rem;
 }
+/* TOM FELTON--------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+
+/* PAGINAS ACTORES---------------------------------------------------------------------------------------------------------------------------------------------------PAGINAS ACTORES FIN*/
 
 
 
-
-/* FONDOS */
+/* FONDOS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------FONDOS*/
+.fondo{
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);
+}
 .item {
     display: block;
     width: 100%;
@@ -650,65 +751,31 @@ body{
 .carousel>.carousel-inner> .item> img {
     width: 640px; 
     height: 360px; 
-   }
-.carousel {width: 640px; height: 360px; }
-/* .fondohp{
-    background: linear-gradient(0deg, rgba(72,72,77,1) 0%, rgba(112,92,92,1) 50%, rgba(83,83,83,1) 100%);    /* background-color: rgba(11, 41, 53, 0.76); */
+}
 
-.fondohp{
-    
+.carousel {width: 640px; height: 360px; }
+
+.fondohp{    
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 0.5rem;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
-.hp111{
-background-color: brown;
-    display: flex!important;
-    align-content: center!important;
-    flex-wrap: wrap!important;
-}
-.hp112{
-    background-color: brown;
-    display: flex!important;
-    flex-direction: row!important;
-    align-items: center!important;
-}
-.hp113{
-    background-color: brown;
-    display: flex!important;
-    align-content: center!important;
-    flex-wrap: wrap!important;
-}
-.hp114{background-color: brown;
-    display: flex!important;
-    flex-direction: row!important;
-    align-items: center!important;
-}
-.hp115{
-    background-color: brown;
-    display: flex!important;
-    align-content: center!important;
-    flex-wrap: wrap!important;
-}
-.hp116{background-color: brown;
-    display: flex!important;
-    flex-direction: row!important;
-    align-items: center!important;
-}
-.hp117{
-    background-color: brown;
-    display: flex!important;
-    align-content: center!important;
-    flex-wrap: wrap!important;
-}
+
+.fondohp>div{
+    margin: 1rem;
+} 
+
+
 .fondohp>a>img{background-color: brown;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
 }
 .roca{
     background-color: brown;
 }
+/* FIN----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 
-/* GIF */
+/* GIF----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GIF*/
 .gif{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -716,7 +783,7 @@ background-color: brown;
     
 }
 .gif{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 96%, rgba(241,240,240,1) 100%);
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);
         justify-items: center;
     
 }
@@ -724,32 +791,53 @@ background-color: brown;
     margin: 1% 0.5% 0 0.5%;
 }
 
-/* FOOTER */
+/* FIN---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
 
-footer{
+
+/* CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------CONTACTO*/
+    .body__contacto{
+    height: 100;
+    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);
+    }
+
+    .section__From{
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+/* FIN --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
+
+/* FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOOTER*/
+
+    .pie{
+    background-color: rgb(223, 135, 135);
+    }
+
+    footer{
     font-size: xx-large;
     height: 4rem;
-    background: linear-gradient(0deg, rgba(209,25,25,1) 28%, rgba(167,29,29,1) 43%, rgba(43,40,40,1) 83%, rgba(90,90,96,1) 92%, rgba(100,100,107,1) 96%, rgba(142,142,142,1) 100%);
+    background-color: rgb(161, 48, 48);
     text-align: center;
-}
-.fot{
-    padding-top: 1rem ;
-    
-    /* background: linear-gradient(0deg, rgba(9,6,54,1) 5%, rgba(10,59,27,1) 37%, rgba(21,153,136,1) 100%); */
-    /* color: rgba(5, 1, 1, 0.24); */
-    text-decoration:underline;
-}
-.fot:hover{
-    color: rgb(133, 14, 14);
-}
+    }
 
-/* END FOOTER */
+    .fot{
+    padding-top: 1rem ;
+    text-decoration:underline;
+    }
+
+    .fot:hover{
+    color: rgb(133, 14, 14);
+    }
+
+/*FIN------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+/* KEYFRAMES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------KEYFRAMES */
 /* ----------------------------------------------
  * Generated by Animista on 2022-5-29 11:41:4
  * Licensed under FreeBSD License.
@@ -786,9 +874,14 @@ footer{
       opacity: 1;
     }
   }
+
+  /* FIN-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
+
+  /* MEDIAS Q --------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIAS Q */
   
 @media screen and (max-width: 1200px) {
     .fondohp{ grid-template-columns: auto auto}
+
 
 }
 
@@ -897,7 +990,7 @@ footer{
     
     }
     .contenedor{
-        background-color: rgba(11, 41, 53, 0.76);
+        background-color: brown;
         display: flex;
         flex-direction: column;
     }
@@ -941,24 +1034,27 @@ footer{
         display: block;
     justify-content: center;
 
-    }
-                        .fondohp{
-    
-                            display: grid;
-                            grid-template-columns: auto ;
-                            padding: 0.5rem;
-                        }       
-                        .gif{
-                            display: grid;
-                            grid-template-columns: auto;
-                            
-                            
-                        }   
 }
 
+.fondohp{
+    
+    display: grid;
+    grid-template-columns: auto ;
+    padding: 0.5rem;
+    }
+
+    .gif{
+    display: grid;
+   grid-template-columns: auto;                 
+    }
+
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 562px) {
+
     .headerh1{
-        padding-left: 0.2rem;
+     padding-left: 0.2rem;
     }
 
     header{
@@ -972,7 +1068,7 @@ footer{
         padding-right:1rem ;
     }
     .contenedor{
-        background-color: rgba(11, 41, 53, 0.76);
+        background-color: brown;
         display: flex;
         flex-direction: column;
     }
@@ -1019,18 +1115,17 @@ footer{
     }
    
                        
-                        .fondohp{
+    .fondohp{
     
-                            display: grid;
-                            grid-template-columns: auto ;
-                            padding: 0.5rem;
-                        }
-                        .gif{
-                            display: grid;
-                            grid-template-columns: auto;
-                            
-                            
-                        }
+    display: grid;
+    grid-template-columns: auto ;
+     padding: 0.5rem;
+    }
+    .gif{
+    display: grid;
+    grid-template-columns: auto;
+    }
+
 }
 
     

@@ -1,0 +1,39 @@
+/* FONDOS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------FONDOS*/
+.fondo{
+    background:$backgbody;
+}
+.item {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.item img {
+    height: 100%;
+    width: 100%;
+}
+.carousel>.carousel-inner> .item> img {
+    width: 640px; 
+    height: 360px; 
+}
+
+.carousel {width: 640px; height: 360px; }
+
+.fondohp{    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.fondohp>div{
+    margin: 1rem;
+} 
+
+
+.fondohp>a>img{background-color: brown;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+}
+.roca{
+    background-color: brown;
+}
+/* FIN----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
