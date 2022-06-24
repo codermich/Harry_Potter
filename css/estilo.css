@@ -5,7 +5,7 @@
 }
 
 header{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(54,0,250,1) 100%);
+  background-color:rgb(7,1,29);
 
 }
 
@@ -42,7 +42,7 @@ footer{
     color: aliceblue;
 }
 .primer__main__rut{
-background-color: crimson;
+    background: rgba(5, 7, 12, 0.089);
 }
 .texto{
     color: rgb(0, 0, 0);

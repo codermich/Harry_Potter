@@ -2,7 +2,7 @@
 
 /* DANIEL RADCLIFE---------------------------------------------------------------------------------------------------------------------------------------------------------DANIEL RADCLIFE */
 .drhp{
-    background: linear-gradient(0deg, rgb(173, 110, 110) 96%, rgba(173,110,110,1) 100%);}
+    background:$backdrhp;}
 .harry{
     margin: 1rem 0 1.5rem 9rem;
     color: rgb(0, 0, 0);
@@ -11,7 +11,7 @@
 
 .harryp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -51,7 +51,7 @@
 
 /* BONNI WRIGHT------------------------------------------------------------------------------------------------------------------------------------------------------------------BONNI WRIGHT*/
 .drhp{
-    background-color: brown;}
+    background-color: $backdrhp;}
 .wright{
     margin: 1rem 0 1.5rem 9rem;
     color: rgb(0, 0, 0);
@@ -60,7 +60,7 @@
 
 .wrightp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -100,7 +100,7 @@
 
 /* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------EMMA WATSOM*/
 .drhp{
-    background-color: brown;}
+    background-color: $backdrhp;}
 .watson{
     margin: 1rem 0 1.5rem 9rem;
     color: rgb(0, 0, 0);
@@ -109,7 +109,7 @@
 
 .watsonp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -149,7 +149,7 @@
 
 /* EVANNA LINCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------EVANNA LYNCH*/
 .drhp{
-    background-color: brown;}
+    background-color: $backgbody;}
 .lynch{
     margin: 1rem 0 1.5rem 9rem;
     color: rgb(0, 0, 0);
@@ -158,7 +158,7 @@
 
 .lynchp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -198,7 +198,7 @@
 
 /* MATTHEW LEWIS-------------------------------------------------------------------------------------------------------------------------------------------------------------------MATTHEW LEWIS*/
 .drhp{
-    background-color: brown;}
+    background-color:$backgbody;}
 .lewis{
     margin: 1rem 0 1.5rem 9rem;
     color: rgbrgb(0, 0, 0);
@@ -207,7 +207,7 @@
 
 .lewisp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -247,7 +247,7 @@
 
 /* RUPERT GRINT------------------------------------------------------------------------------------------------------------------------------------------------------------------RUPERT GRINT*/ 
 .drhp{
-    background-color: brown;
+    background-color:$backgbody;
 }
 
 .grint{
@@ -258,7 +258,7 @@
 
 .grintp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{
@@ -297,7 +297,7 @@
 
 /* TOM FELTON------------------------------------------------------------------------------------------------------------------------------------------------------------------TOM FELTON*/
 .drhp{
-background-color: brown;}
+background-color: $backgbody;}
 
 .felton{
     margin: 1rem 0 1.5rem 9rem;
@@ -307,7 +307,7 @@ background-color: brown;}
 
 .feltonp{
     margin: 0 0 5rem 2rem;
-    color: rgb(0, 0, 0);
+    color: $textocolordos;
     font-size:x-large;
 }
 .section__Radcliffe{

@@ -3,18 +3,14 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
-  background: linear-gradient(0deg, white 0%, #3600fa 100%); }
+.headerh {
+  background: #07011d; }
 
 /* INDEX HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-body {
-  background: linear-gradient(0deg, white 96%, #f1f0f0 100%); }
-
 .main__Main {
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+  background: #30158f; }
 
 body {
-  background: linear-gradient(0deg, white 96%, #f1f0f0 100%);
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -34,10 +30,10 @@ footer {
   color: aliceblue; }
 
 .primer__main__rut {
-  background-color: crimson; }
+  background: rgba(5, 7, 12, 0.4); }
 
 .texto {
-  color: black; }
+  color: #fff; }
 
 .textoo {
   color: aliceblue; }
@@ -51,7 +47,7 @@ footer {
 
 .headerh1 {
   padding-left: 9rem;
-  color: black;
+  color: white;
   text-transform: uppercase;
   text-decoration-line: overline;
   font-size: xx-large;
@@ -66,27 +62,15 @@ nav {
 .nev > a {
   text-decoration: overline;
   font-size: larger;
-  color: #030202; }
+  color: white; }
 
 .nev > a:hover {
-  color: rgba(161, 14, 14, 0.897); }
+  color: rgba(255, 0, 0, 0.897); }
 
 .headerh1:hover {
-  color: #ec8d0f; }
+  color: #dfa861; }
 
-.chris {
-  display: flex;
-  justify-content: center; }
-
-.alfonso {
-  display: flex;
-  justify-content: center; }
-
-.david {
-  display: flex;
-  justify-content: center; }
-
-.mike {
+.chris, .alfonso, .david, .mike {
   display: flex;
   justify-content: center; }
 
@@ -96,7 +80,6 @@ nav {
   align-items: center; }
 
 .section__TextoJ {
-  color: #1db985;
   display: inline;
   justify-self: flex-end; }
 
@@ -111,11 +94,7 @@ nav {
   justify-content: center;
   align-items: center; }
 
-.section__ProductorC {
-  color: #719e8f;
-  margin: 0 3% 1% 3%; }
-
-.chris {
+.chris, .alfonso, .mike, .david {
   text-decoration: underline;
   color: #0e0b0b;
   margin-bottom: 2rem;
@@ -123,67 +102,16 @@ nav {
   display: flex;
   justify-content: center; }
 
-.section__ProductorA {
-  color: #719e8f;
-  margin: 1% 3% 1% 3%; }
-
-.alfonso {
-  text-decoration: underline;
-  color: #070505;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
-
-.section__ProductorM {
-  color: #719e8f;
-  margin: 1% 3% 1% 3%; }
-
-.mike {
-  text-decoration: underline;
-  color: #0c0a0a;
-  margin-bottom: 2rem;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center; }
-
-.section__ProductorD {
-  color: #719e8f;
-  margin: 1% 3% 1% 3%; }
-
-.david {
-  text-decoration: underline;
-  color: #070505;
-  margin-bottom: 2rem;
-  padding: 2%;
-  display: flex;
-  justify-content: center; }
-
-.section__Textoc {
-  color: #719e8f;
-  padding: 1% 1% 1% 1%; }
-
 .directores {
   display: flex;
   display: inline;
   align-content: flex-start; }
 
-.tt {
+.tt, .ttj {
   display: flex;
   justify-content: center;
   text-decoration: underline;
   color: #080707;
-  padding: 1% 0 1%; }
-
-.section__TextoJ {
-  color: #719e8f;
-  padding: 1% 1% 1% 1%; }
-
-.ttj {
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-  color: #070505;
   padding: 1% 0 1%; }
 
 /* END INDEX HEADER---------------------------------------------------------------------------------------------------------------------------------------------------END INDEX HEADER */
@@ -217,7 +145,7 @@ nav {
 
 .contenedor {
   display: flex;
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%);
+  background: #30158f;
   padding-bottom: 2rem;
   flex-direction: column; }
 
@@ -265,52 +193,59 @@ nav {
   margin-left: 10rem; }
 
 .hp111 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   align-content: center !important;
-  flex-wrap: wrap !important; }
+  flex-wrap: wrap !important;
+  color: #fff; }
 
 .hp112 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important; }
+  align-items: center !important;
+  color: #fff; }
 
 .hp113 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   align-content: center !important;
-  flex-wrap: wrap !important; }
+  flex-wrap: wrap !important;
+  color: #fff; }
 
 .hp114 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important; }
+  align-items: center !important;
+  color: #fff; }
 
 .hp115 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   align-content: center !important;
-  flex-wrap: wrap !important; }
+  flex-wrap: wrap !important;
+  color: #fff; }
 
 .hp116 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important; }
+  align-items: center !important;
+  color: #fff; }
 
 .hp117 {
-  background-color: brown;
+  background-color: rgba(5, 7, 12, 0.4);
   display: flex !important;
   align-content: center !important;
-  flex-wrap: wrap !important; }
+  flex-wrap: wrap !important;
+  color: #fff; }
 
 /* END------------------------------------------------------------------------------------------------------------------------------------------------------------SECTION ACTORES FIN */
 /* PAGINAS ACTORES------------------------------------------------------------------------------------------------------------------------------------------------------------PAGINAS ACTORES */
 /* DANIEL RADCLIFE---------------------------------------------------------------------------------------------------------------------------------------------------------DANIEL RADCLIFE */
 .drhp {
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+  background: #30158f; }
 
 .harry {
   margin: 1rem 0 1.5rem 9rem;
@@ -319,7 +254,7 @@ nav {
 
 .harryp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -355,7 +290,7 @@ nav {
 /* DANIEL RADCLIFFE------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 /* BONNI WRIGHT------------------------------------------------------------------------------------------------------------------------------------------------------------------BONNI WRIGHT*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .wright {
   margin: 1rem 0 1.5rem 9rem;
@@ -364,7 +299,7 @@ nav {
 
 .wrightp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -400,7 +335,7 @@ nav {
 /* BONNI WRIGHT---------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 /* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------EMMA WATSOM*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .watson {
   margin: 1rem 0 1.5rem 9rem;
@@ -409,7 +344,7 @@ nav {
 
 .watsonp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -445,7 +380,7 @@ nav {
 /* EMMA WATSON------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 /* EVANNA LINCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------EVANNA LYNCH*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .lynch {
   margin: 1rem 0 1.5rem 9rem;
@@ -454,7 +389,7 @@ nav {
 
 .lynchp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -490,7 +425,7 @@ nav {
 /* EVANNA LYNCH-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 /* MATTHEW LEWIS-------------------------------------------------------------------------------------------------------------------------------------------------------------------MATTHEW LEWIS*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .lewis {
   margin: 1rem 0 1.5rem 9rem;
@@ -499,7 +434,7 @@ nav {
 
 .lewisp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -535,7 +470,7 @@ nav {
 /* MATTHEW LEWIS----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN */
 /* RUPERT GRINT------------------------------------------------------------------------------------------------------------------------------------------------------------------RUPERT GRINT*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .grint {
   margin: 1rem 0 1.5rem 9rem;
@@ -544,7 +479,7 @@ nav {
 
 .grintp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -580,7 +515,7 @@ nav {
 /* RUPERT GRINT-----------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
 /* TOM FELTON------------------------------------------------------------------------------------------------------------------------------------------------------------------TOM FELTON*/
 .drhp {
-  background-color: brown; }
+  background-color: #30158f; }
 
 .felton {
   margin: 1rem 0 1.5rem 9rem;
@@ -589,7 +524,7 @@ nav {
 
 .feltonp {
   margin: 0 0 5rem 2rem;
-  color: black;
+  color: #fff;
   font-size: x-large; }
 
 .section__Radcliffe {
@@ -631,7 +566,7 @@ nav {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
 
 .fondo {
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+  background: #30158f; }
 
 .item {
   display: block;
@@ -673,7 +608,7 @@ nav {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; }
 
 .gif {
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%);
+  background: #30158f;
   justify-items: center; }
 
 .gif > img {
@@ -683,7 +618,7 @@ nav {
 /* CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------CONTACTO*/
 .body__contacto {
   height: 100;
-  background: linear-gradient(0deg, #ad6e6e 96%, #ad6e6e 100%); }
+  background: #30158f; }
 
 .section__From {
   height: 100vh;
@@ -694,12 +629,12 @@ nav {
 /* FIN --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIN*/
 /* FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOOTER*/
 .pie {
-  background-color: #df8787; }
+  background-color: #07011d; }
 
 footer {
   font-size: xx-large;
   height: 4rem;
-  background-color: #a13030;
+  background-color: #07011d;
   text-align: center; }
 
 .fot {
